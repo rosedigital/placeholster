@@ -12,8 +12,8 @@ _Max image size restricted to 1920 x 1080_
 
 ## Examples
 
-![Lorem Pizaa 380x240 example 1](http://lorempizza.com/380/240)
-`http://lorempizza.com/380/240`
+![Lorem Pizza 300x100 example 1](http://lorempizza.com/200/100)
+`http://lorempizza.com/200/100`
 
-![Lorem Pizaa 380x240 example 2](http://lorempizza.com/i/380/240)
-`http://lorempizza.com/i/380/240`
+![Lorem Pizza 300x100 example 2](http://lorempizza.com/i/200/100)
+`http://lorempizza.com/i/200/100`
