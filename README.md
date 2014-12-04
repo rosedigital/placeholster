@@ -1,18 +1,10 @@
-# Style Guide Resources
+# placeholster
 
-Temporary domain: http://styleguides.maban.co.uk
+_github repo style aggregation of stuff inspired and forked from [maban/styleguides](https://github.com/maban/styleguides)_
 
-This site lists lots of useful resources to help you learn about and create your own Front-End Style Guides and Pattern Libraries.
+This site lists lots of placeholder resources
 
 Best of all, you can add your own resources to share with others. And you don't even need to download any files to do that, you can do it all within GitHub's web interface.
-
-## To do
-
-* ~~Add screenshots to resources that are examples~~
-* ~~Additional hover state to resources that doesn't rely on transform~~
-* ~~Transfer all the resources from [Gimmiebar](https://gimmebar.com/collection/4ecd439c2f0aaad734000022/front-end-styleguides)~~
-* ~~Set up a domain~~
-* Set up tags and filters
 
 ## How to add resources the easy way
 
@@ -22,12 +14,7 @@ First, you'll need to decide whether your resource is a book, article, tool, pod
 
 The only folders you'll need to worry about are:
 
-* _resourcearticle
-* _resourcebook
-* _resourceexample
-* _resourcepodcast
-* _resourcetalk
-* _resourcetool
+* _resourceimage
 
 If it's a tool, open up the _resourcetool folder. In there, you'll find a README that'll explain exactly what to do to.
 

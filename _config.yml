@@ -1,24 +1,11 @@
 # Site settings
-title: Website Style Guide Resources
-description: A collaborative collection of resources for creating Front-End Style Guides and Pattern Libraries
+title: placeholster
+description: a place to holster the internet's placeholders
 baseurl: ""
 
 # Build settings
 markdown: kramdown
 
 collections:
-    resourcearticle:
+    resourceimage:
         output: true
-    resourcebook:
-        output: true
-    resourceexample:
-        output: true
-    resourceguide:
-        output: true
-    resourcepodcast:
-        output: true
-    resourcetalk:
-        output: true
-    resourcetool:
-        output: true
-    
