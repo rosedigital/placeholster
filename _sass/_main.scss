@@ -27,46 +27,38 @@ section {
 }
 
 .resource {
-    position: relative;
-    margin: 0 0 20px 0;
     overflow: hidden;
-
+    margin: 0 0 20px 0;
     font-size: 15px;
-    
     box-shadow: 0 0 1px rgba(0,0,0,0.3);
+    transition: 0.2s;
     border-radius: 3px;
-    
+    position: relative;
     opacity: 1;
-    
-    transition: 0.2s;    
-}
-
-.resource:hover,
-.resource:focus {
-    text-decoration: none;
-    opacity: .95;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        opacity: .95;
+    }
 }
 
 .resource-tags {
     margin: 0;
-    
-}
-
-.resource-tags li {
-    display: inline-block;
-    padding: 5px 7px;
-    border-radius: 3px;
-    background: #E0E0E0;
-    font-size: 11px;
-    font-weight: normal;
-    line-height: 1;
-    text-transform: uppercase;
-}
-
-.resource-tags li:before {
-    content: "#";
-    padding-right: 0.25em;
-    color: #A0A0A0;
+    li {
+        display: inline-block;
+        padding: 5px 7px;
+        border-radius: 3px;
+        background: #E0E0E0;
+        font-size: 11px;
+        font-weight: normal;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    li:before {
+        content: "#";
+        padding-right: 0.25em;
+        color: #A0A0A0;
+    }
 }
 
 .resource-description {
@@ -83,10 +75,9 @@ section {
 
 .resource-url {
     display: block;
-}
-
-.resource-url:hover {
-    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .resource-title {
@@ -99,6 +90,24 @@ section {
 .resource-publisher,
 .resource-language {
     margin: 0;
+}
+
+.resources .resource-add {
+    //opacity: 0.55;
+    max-width: 250px;
+    padding-top: 0;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+    &:hover,
+    &:focus {
+        //opacity: 1;
+        -moz-transform: none;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.resource-add .resource-url {
+    padding-top: 0;
 }
 
 @media (min-width: 600px) {

@@ -8,20 +8,35 @@
         
         {% assign image = site.resourceimage %}
         
-        {% for image in image reversed %}
-        <li class="resource {{ image.status }}">
-            <a href="{{ image.link }}" class="resource-url">
-                {% if page.type != "home" %}
+        {% for image in image reversed %}     
+
+        <li class="resource" id="{{ image.title }}">
+            {% if page.type == "home" %}
+            <a href="images.html" class="resource-url">
+            {% endif %}
+                {% if page.type == "home" %}
                     {% if image.image %}<img src="/images/screenshots/{{ image.image }}" alt="{{ image.image }}"/>{% endif %}
                 {% endif %}
                 <span class="resource-description">
                     <h2 class="resource-title">{{ image.title }}</h2>
-                    {{ image.content }}
+                    {% if page.type != "home" %}
+                        <a href="{{ image.link }}">{{ image.link }}</a>
+                    {% endif %}
+
+                    <p>{{ image.description }}</p>
+
+                    {% if page.type != "home" %}
+                        {{ image.content }}
+                    {% endif %}
+
                     {% if image.author %}<p class="resource-author">By <strong>{{ image.author }}</strong></p>{% endif %}
                     {% if image.publisher %}<p class="resource-publisher">Published on <strong>{{ image.site }}</strong></p>{% endif %}
                 </span>
+            {% if page.type == "home" %}
             </a>
+            {% endif %}
         </li>
+
         {% endfor %}
         
         {% include add.html %}
