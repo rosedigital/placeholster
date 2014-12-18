@@ -19,4 +19,4 @@ description: "A quick and simple image placeholder service."
 
 ![placeholdit 350x150 colours](http://placehold.it/350x150/ffffff/000000)
 
-[hhttp://placehold.it/350x150/E8117F/ffffff](http://placehold.it/350x150/E8117F/ffffff)
+[http://placehold.it/350x150/E8117F/ffffff](http://placehold.it/350x150/E8117F/ffffff)
