@@ -17,6 +17,6 @@ description: "A quick and simple image placeholder service."
 
 [http://placehold.it/300x150&text=placehold.it+rocks!](http://placehold.it/300x150&text=placehold.it+rocks!)
 
-![placeholdit 350x150 colours](http://placehold.it/350x150/ffffff/000000)
+![placeholdit 350x150 colours](http://placehold.it/350x150/E8117F/ffffff)
 
 [http://placehold.it/350x150/E8117F/ffffff](http://placehold.it/350x150/E8117F/ffffff)
