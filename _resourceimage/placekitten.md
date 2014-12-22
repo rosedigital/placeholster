@@ -1,8 +1,8 @@
 ---
 title: Placekitten
-link: https://placekitten.com
+link: http://placekitten.com
 author: Mark James
-site: http://http://mark.james.name
+site: http://mark.james.name
 image: placekitten.jpeg
 description: "A quick and simple service for getting pictures of kittens for use as placeholders in your designs or code."
 ---
