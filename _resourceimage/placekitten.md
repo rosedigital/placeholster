@@ -9,10 +9,10 @@ description: "A quick and simple service for getting pictures of kittens for use
 
 ## Examples
 
-![placekitten 350x150 example](http://placekitten.com/350x150)
+![placekitten 350x150 example](http://placekitten.com/350/150)
 
-[http://placekitten.com/350x150](http://placekitten.com/350x150)
+[http://placekitten.com/350x150](http://placekitten.com/350/150)
 
-![placekitten 350x150 example in b&w](http://placekitten.com/g/350x150)
+![placekitten 350x150 example in b&w](http://placekitten.com/g/350/150)
 
-[http://placekitten.com/g/300x150](http://placekitten.com/g/300x150)
+[http://placekitten.com/g/300x150](http://placekitten.com/g/300/150)
