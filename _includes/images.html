@@ -15,7 +15,7 @@
             <a href="images.html" class="resource-url">
             {% endif %}
                 {% if page.type == "home" %}
-                    {% if image.image %}<img src="/images/screenshots/{{ image.image }}" alt="{{ image.image }}"/>{% endif %}
+                    {% if image.image %}<img src="{{ site.baseurl }}/images/screenshots/{{ image.image }}" alt="{{ image.image }}"/>{% endif %}
                 {% endif %}
                 <span class="resource-description">
                     <h2 class="resource-title">{{ image.title }}</h2>
