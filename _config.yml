@@ -1,7 +1,7 @@
 # Site settings
 title: placeholster
 description: a place to holster the internet's placeholders
-baseurl: ""
+baseurl: https://zaccolley.github.io/placeholster/
 
 # Build settings
 markdown: kramdown
